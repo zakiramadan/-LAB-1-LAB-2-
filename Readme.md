@@ -1,4 +1,4 @@
-# Panduan Menghitung One-way Hashes Menggunakan HashCalc
+# [LAB 1] Calculating One Way Hashes using HashCalc
 
 ## Pendahuluan
 
@@ -8,6 +8,34 @@
 
 1. **HashCalc**: Pastikan Anda telah mengunduh dan menginstal HashCalc di komputer Anda. Anda bisa mendapatkannya dari [situs resmi HashCalc](https://hashcalc.en.download.it/).
 
+2. Install Aplikasi
+
+![App Screenshot](/Image/1.png)
+
+![App Screenshot](/Image/2.png)
+
+![App Screenshot](/Image/3.png)
+
+![App Screenshot](/Image/4.png)
+
+![App Screenshot](/Image/5.png)
+
+![App Screenshot](/Image/6.png)
+
+![App Screenshot](/Image/7.png)
+
+![App Screenshot](/Image/8.png)
+
+![App Screenshot](/Image/9.png)
+
+![App Screenshot](/Image/10.png)
+
+![App Screenshot](/Image/11.png)
+
+![App Screenshot](/Image/12.png)
+
+![App Screenshot](/Image/13.png)
+
 ## Langkah-Langkah Menggunakan HashCalc
 
 ### 1. Membuka Aplikasi HashCalc
@@ -15,72 +43,63 @@
 1. Buka aplikasi HashCalc setelah diinstal.
 2. Anda akan melihat antarmuka yang sederhana dengan berbagai pilihan algoritma hash dan input.
 
-### 2. Memilih Input Data
+### 2. Memilih Input Data menjadi Text String
 
-1. **File**: Jika ingin menghitung hash dari sebuah file, klik tombol `...` di sebelah kanan kolom `Data` dan pilih file yang ingin Anda hitung.
-2. **Text String**: Jika ingin menghitung hash dari teks, masukkan teks langsung ke dalam kolom `Data` dan pilih opsi `Text String` dari menu drop-down di sebelah kiri.
+![App Screenshot](/Image/14.png)
+
+**Text String**: Jika ingin menghitung hash dari teks, masukkan teks langsung ke dalam kolom `Data` dan pilih opsi `Text String` dari menu drop-down di sebelah kiri.
 
 ### 3. Memilih Algoritma Hash
+
+![App Screenshot](/Image/15.png)
 
 1. Di bagian `Hash`, pilih algoritma hash yang diinginkan. HashCalc mendukung berbagai algoritma seperti:
    - **MD5**
    - **SHA-1**
-   - **SHA-256**
+   - **RIPEMD160**
    - **CRC32**
-   - **SHA-512**
-   - dan lainnya.
-2. Anda dapat memilih lebih dari satu algoritma untuk menghitung beberapa nilai hash sekaligus.
-
-### 4. Memulai Perhitungan
-
-1. Setelah memilih input dan algoritma hash, klik tombol `Calculate`.
-2. HashCalc akan menghitung nilai hash dari input Anda berdasarkan algoritma yang dipilih.
+2. Setelah memilih input dan algoritma hash, klik tombol `Calculate`.
+3. HashCalc akan menghitung nilai hash dari input Anda berdasarkan algoritma yang dipilih.
 
 ### 5. Melihat Hasil
 
+![App Screenshot](/Image/16.png)
+
 1. Setelah proses selesai, hasil hash akan ditampilkan di bagian bawah aplikasi.
 2. Anda dapat menyalin hasil tersebut dengan menekan `Ctrl + C` atau klik kanan untuk menyalin hasilnya.
-
-## Contoh Penggunaan
-
-### Menghitung Hash dari File
-
-Jika Anda ingin memverifikasi integritas file setelah pengunduhan, Anda dapat menggunakan HashCalc untuk menghitung checksum. Misalnya:
-
-1. Pilih file `example.iso`.
-2. Pilih algoritma `SHA-256`.
-3. Klik `Calculate` dan HashCalc akan menampilkan nilai hash SHA-256 dari file tersebut.
-
-### Menghitung Hash dari Teks
-
-Untuk menghitung nilai hash dari teks:
-
-1. Masukkan teks `hello world` di kolom `Data`.
-2. Pilih `MD5` dari algoritma.
-3. Klik `Calculate` dan HashCalc akan menghasilkan hash MD5 dari teks tersebut.
-
-## One-Way Hashing
-
-Hash yang dihasilkan adalah **one-way hash**, yang berarti hash tidak dapat diubah kembali menjadi data asli. Fungsi hash ini sering digunakan untuk:
-
-- **Verifikasi integritas file**: Membandingkan nilai hash sebelum dan sesudah transfer untuk memastikan tidak ada perubahan data.
-- **Keamanan password**: Menyimpan hash dari password untuk memastikan keamanan.
-
-## Algoritma Hash yang Didukung
-
-Beberapa algoritma hash yang didukung oleh HashCalc:
-
-- **MD5**: Algoritma 128-bit, cepat tetapi tidak cocok untuk aplikasi keamanan modern.
-- **SHA-1**: Algoritma 160-bit, lebih aman daripada MD5, tetapi juga mulai ditinggalkan.
-- **SHA-256**: Algoritma 256-bit, bagian dari keluarga SHA-2 yang digunakan secara luas di banyak aplikasi keamanan.
-- **CRC32**: Algoritma hash sederhana yang sering digunakan untuk cek integritas file.
-
-## Troubleshooting
-
-- **Nilai Hash Tidak Sama**: Jika nilai hash yang dihitung tidak sesuai dengan nilai hash yang diharapkan, pastikan file atau teks yang dimasukkan benar. File yang rusak atau terubah akan menghasilkan nilai hash yang berbeda.
-- **Algoritma Tidak Didukung**: Beberapa algoritma hash yang lebih modern, seperti SHA-3, mungkin tidak didukung oleh HashCalc. Untuk algoritma tersebut, pertimbangkan menggunakan alat hash yang lebih modern.
 
 ## Referensi
 
 - [HashCalc Official Website](http://www.slavasoft.com/hashcalc/)
 - [Penjelasan Algoritma Hash](https://en.wikipedia.org/wiki/Cryptographic_hash_function)
+
+---
+
+# [LAB 2] Calculating MD5 Hashes using MD5 Calculator
+
+## Pendahuluan
+
+**MD5 Calculator** adalah alat sederhana untuk menghitung **MD5 Hash** dari file. MD5 (Message Digest Algorithm 5) menghasilkan hash 128-bit yang biasa digunakan untuk memverifikasi integritas data atau file. Panduan ini menjelaskan cara menggunakan MD5 Calculator untuk menghitung hash MD5 dari file di komputer Anda.
+
+## Prasyarat
+
+1. Sebelum memulai, pastikan Anda sudah menginstal **MD5 Calculator**. Anda bisa mengunduhnya dari [situs resmi MD5 Calculator](https://bullzip.com/download.php) atau sumber tepercaya lainnya.
+
+2. Install Aplikasi
+
+![App Screenshot](/Image/17.png)
+
+![App Screenshot](/Image/18.png)
+
+![App Screenshot](/Image/19.png)
+
+![App Screenshot](/Image/20.png)
+
+3. Buka aplikasi MD5 Calculator
+
+![App Screenshot](/Image/21.png)
+
+## Referensi
+
+- [MD5 Wikipedia](https://en.wikipedia.org/wiki/MD5)
+- [Unduh MD5 Calculator](https://www.softpedia.com/get/Security/Security-Related/MD5-Calculator.shtml)
